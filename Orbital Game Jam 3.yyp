@@ -130,7 +130,7 @@
             "Key": "3d03d37d-7ed7-4044-a9b4-7fc2c66003c0",
             "Value": {
                 "id": "8601b0cb-b776-484d-b8d1-8aeab83923ca",
-                "resourcePath": "objects\\oEvents\\oEvents.yy",
+                "resourcePath": "objects\\GameController\\GameController.yy",
                 "resourceType": "GMObject"
             }
         },
