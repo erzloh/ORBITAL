@@ -5,3 +5,6 @@ with (player1) {
 	color = "red";
 }
 //player1.color = "red";
+
+// Create Managers
+instance_create_layer(0, 0, "controller", InputManager);

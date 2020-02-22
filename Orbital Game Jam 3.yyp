@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00494760-3ad8-4682-b742-be054d6bbd55",
+            "Value": {
+                "id": "91af36ac-c5cf-49f3-95ff-6e089d9a0eb0",
+                "resourcePath": "scripts\\PlayerInputs\\PlayerInputs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07489839-742f-4ad6-8907-9d7140625d48",
             "Value": {
                 "id": "b5420c81-cabc-4f97-9f69-e61836ff1151",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "b128b44a-d500-4357-8eba-1166322073b7",
+            "Value": {
+                "id": "2c8d6cf7-2cba-45d6-940c-03e89f3f06d8",
+                "resourcePath": "objects\\InputManager\\InputManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c934d5a8-97aa-49d3-a0c8-f1ba6427b79e",
             "Value": {
                 "id": "101f9e05-1be4-4814-9a37-0269100aa020",
@@ -224,7 +240,7 @@
         }
     ],
     "script_order": [
-        
+        "00494760-3ad8-4682-b742-be054d6bbd55"
     ],
     "tutorial": ""
 }
