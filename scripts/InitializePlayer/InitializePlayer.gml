@@ -15,3 +15,6 @@ pushedDir = 0;
 myScore   = 0;
 
 state = "free";
+
+//liste de malus qui sont appliqués au perso
+maluses = ds_list_create();

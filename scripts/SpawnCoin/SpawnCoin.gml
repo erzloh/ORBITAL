@@ -16,6 +16,7 @@ instance_create_layer(randW, randH, "wall", oCoin);*/
 
 //spawn de coin
 //if (irandom(70) == 1) {
+if GameController.inGame {
     eligibleTiles2 = ds_list_create();
     //show_debug_message("-------------------");
     for (var i = 0; i < instance_number(oWallTile); ++i;) {
@@ -42,4 +43,4 @@ instance_create_layer(randW, randH, "wall", oCoin);*/
     if (tile != undefined) {
         instance_create_layer(tile.x, tile.y-tile.sprite_height, "coins", oCoin);
     }
-//}
+}

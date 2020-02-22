@@ -1,34 +1,44 @@
 {
-    "id": "d731d857-8cb2-4667-af2d-1b0fba400a18",
+    "id": "da2a9327-eb80-4560-807d-38bf5aa1ef4b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ScoreManager",
+    "name": "oTriangle",
     "eventList": [
         {
-            "id": "f5d8bb9f-0f6f-4351-88de-2e9694305ff3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "d731d857-8cb2-4667-af2d-1b0fba400a18"
-        },
-        {
-            "id": "22cac6e2-db27-480e-a288-6ab1b4c181e2",
+            "id": "cbc20ee2-eb7b-474e-93a0-2463faedb388",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d731d857-8cb2-4667-af2d-1b0fba400a18"
+            "m_owner": "da2a9327-eb80-4560-807d-38bf5aa1ef4b"
+        },
+        {
+            "id": "e96a8f85-3219-4b01-94e5-f32a543d08bf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "da2a9327-eb80-4560-807d-38bf5aa1ef4b"
+        },
+        {
+            "id": "2bba6f1f-1a2c-41a5-b950-5775a63f9f49",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "da2a9327-eb80-4560-807d-38bf5aa1ef4b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

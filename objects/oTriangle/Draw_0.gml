@@ -1,0 +1,1 @@
+DrawPolygon(triangleX-50, oMenu.centerY, 3, 15, rot, 15, oMenu.selected_col, 1);
