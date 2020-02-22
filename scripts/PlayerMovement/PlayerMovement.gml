@@ -14,19 +14,21 @@ var move = goRight - goLeft;
 hsp = walksp * move;
 vsp += grv;
 
-// Collision with other Players
-if place_meeting(x, bbox_top, oPlayer2)
-{
-	jump = true;
-	canJump = 10;
-}
-
 // Jump
 if jump && canJump > 0
 {
 	vsp = -jumpPower;
 	canJump = 0;
 }
+
+// NOT IN USE
+//// Collision with players
+//if place_meeting(x, y, oPlayer2)
+//{
+//	pushedDir = sign(x - oPlayer2.x);
+//	hsp = 16 * pushedDir;
+//	state = "pushed"
+//}
 
 // Horizontal Collisions
 if place_meeting(x+hsp, y, oWallTile)

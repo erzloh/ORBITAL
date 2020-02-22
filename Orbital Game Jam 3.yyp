@@ -63,6 +63,22 @@
             }
         },
         {
+            "Key": "1848c835-f00c-433e-908f-05e88561694c",
+            "Value": {
+                "id": "2e1d2da6-6200-49a0-9109-6b165da133cf",
+                "resourcePath": "scripts\\CollideCoin\\CollideCoin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "192c31cc-b27a-41cb-ad79-088d9ed3e240",
+            "Value": {
+                "id": "11bea584-4b3b-48de-8fcd-a5d1cabbfa4b",
+                "resourcePath": "sprites\\sPlayer4\\sPlayer4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1adb53d3-2a6d-4701-8e24-00df24d7e530",
             "Value": {
                 "id": "57b4fa31-6fb4-4d90-ba0f-be5370f7fb91",
@@ -84,6 +100,22 @@
                 "id": "f8cd61ed-8213-449c-9cfc-6cde838fe754",
                 "resourcePath": "views\\25fdcca8-de50-4734-bd09-e78be52ea008.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "327590cb-6065-4e74-8c36-1a138dad696f",
+            "Value": {
+                "id": "4bda3cbc-1c9b-47c7-ba06-7090f286048e",
+                "resourcePath": "scripts\\SpawnCoin\\SpawnCoin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3599546f-a049-43c4-bc46-91c520ee81dc",
+            "Value": {
+                "id": "7096cbde-ec57-40b3-98f1-2deb5628b1c1",
+                "resourcePath": "objects\\oCoinSpawner\\oCoinSpawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -111,6 +143,14 @@
             }
         },
         {
+            "Key": "63de71c3-994c-4f82-b1cc-d4ddceb0189f",
+            "Value": {
+                "id": "4c8a1866-1f22-4d4a-9b37-2633e02a7e34",
+                "resourcePath": "objects\\MusicManager\\MusicManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "668d0ce2-3472-458b-b236-bde4d9a24f53",
             "Value": {
                 "id": "1a228d5d-5721-4d14-b417-de211a025535",
@@ -127,6 +167,14 @@
             }
         },
         {
+            "Key": "6d3a077e-721a-40c8-80ac-55090fd5dba0",
+            "Value": {
+                "id": "dfa6ebe4-d1de-499e-be79-4445640cb740",
+                "resourcePath": "scripts\\PlayerPushed\\PlayerPushed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7bc7c747-f771-4e39-a166-32fe915503a0",
             "Value": {
                 "id": "33581b59-ba5b-4fe8-9d8f-61c434b34e3b",
@@ -140,6 +188,14 @@
                 "id": "1f1f0863-a87d-4c34-bf1e-7d920235eb87",
                 "resourcePath": "views\\82538635-d3e9-479c-a95a-c1d4dbba27f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82eccd17-2579-4bbc-9122-8ec805aa7225",
+            "Value": {
+                "id": "20a36e39-a54c-409c-83c4-8f7890aad1d5",
+                "resourcePath": "objects\\oPlayer3\\oPlayer3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +255,38 @@
             }
         },
         {
+            "Key": "b88594bc-1ba4-468d-899d-2f2068a76901",
+            "Value": {
+                "id": "ea18f584-bf6e-4808-bad4-ccec3cee161c",
+                "resourcePath": "scripts\\InitializePlayer\\InitializePlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bf7cf43a-bec3-465d-9bdc-c1f833ae7d79",
+            "Value": {
+                "id": "f8ad925c-0b2c-42e2-b0b2-64a5e618e428",
+                "resourcePath": "objects\\oCoin\\oCoin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c528be54-25f1-4820-b3e6-fade1c7f67b0",
+            "Value": {
+                "id": "0d9c682d-b54d-4bba-9636-592e7796afcb",
+                "resourcePath": "sprites\\sCoin\\sCoin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c66fc4da-4a1a-4546-9866-1c9f41a90448",
+            "Value": {
+                "id": "884ca1f2-a42e-4378-8c46-149d7cdf4974",
+                "resourcePath": "objects\\oPlayer4\\oPlayer4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c934d5a8-97aa-49d3-a0c8-f1ba6427b79e",
             "Value": {
                 "id": "101f9e05-1be4-4814-9a37-0269100aa020",
@@ -220,6 +308,14 @@
                 "id": "d4a9aaff-5ab5-4958-8bd7-6ca6bf1d0664",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d731d857-8cb2-4667-af2d-1b0fba400a18",
+            "Value": {
+                "id": "65c83f0e-b5b2-4f2b-bb44-58425007cfaf",
+                "resourcePath": "objects\\ScoreManager\\ScoreManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +343,14 @@
             }
         },
         {
+            "Key": "e8c4edc4-4863-46ba-971a-0a5e71ab8786",
+            "Value": {
+                "id": "0d381b45-df01-47c2-b250-e4ffed694930",
+                "resourcePath": "sprites\\sPlayer3\\sPlayer3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef875a3f-3dde-4fc2-b423-000e878ba344",
             "Value": {
                 "id": "ab409c86-d7ea-49d3-9388-9dc91ad49b1d",
@@ -257,7 +361,11 @@
     ],
     "script_order": [
         "00494760-3ad8-4682-b742-be054d6bbd55",
-        "8a19e5c0-eb2e-4fdc-9db4-501d9ea6a63e"
+        "8a19e5c0-eb2e-4fdc-9db4-501d9ea6a63e",
+        "6d3a077e-721a-40c8-80ac-55090fd5dba0",
+        "327590cb-6065-4e74-8c36-1a138dad696f",
+        "1848c835-f00c-433e-908f-05e88561694c",
+        "b88594bc-1ba4-468d-899d-2f2068a76901"
     ],
     "tutorial": ""
 }

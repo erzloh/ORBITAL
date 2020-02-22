@@ -1,0 +1,1 @@
+InitializePlayer(2);
