@@ -15,11 +15,11 @@ hsp = walksp * move;
 vsp += grv;
 
 // Collision with other Players
-//if place_meeting(x, y+1, oPlayer)
-//{
-//	jump = true;
-//	canJump = 10;
-//}
+if place_meeting(x, bbox_top, oPlayer2)
+{
+	jump = true;
+	canJump = 10;
+}
 
 // Jump
 if jump && canJump > 0
