@@ -9,7 +9,8 @@ playerPositions[1, 1] = 544;
 for (i = 0; i < playerCount; i++) {
 	global.p = i;
     global.couleur = playerColors[i];
-    instance_create_layer(playerPositions[i, 0], playerPositions[i, 1], "player", oPlayer);
+instance_create_layer(playerPositions[i, 0], playerPositions[i, 1], "player", oPlayer);
+
 }
 
 // Create Managers

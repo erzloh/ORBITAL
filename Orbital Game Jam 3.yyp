@@ -90,7 +90,7 @@
             "Key": "35d9dcfd-474f-4746-9d86-34654a7d70dc",
             "Value": {
                 "id": "cbe14853-a911-4a10-8733-e00fbd0fe24a",
-                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourcePath": "objects\\oPlayer1\\oPlayer1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -148,6 +148,14 @@
                 "id": "0bd53649-983a-4016-89e7-1e7d2412fb54",
                 "resourcePath": "views\\86d096d4-9a90-44df-9fe9-f0db75dba13f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a19e5c0-eb2e-4fdc-9db4-501d9ea6a63e",
+            "Value": {
+                "id": "5ee1fc11-f791-411a-b757-3b3e650dfa0b",
+                "resourcePath": "scripts\\PlayerMovement\\PlayerMovement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -237,10 +245,19 @@
                 "resourcePath": "views\\dd21db22-2242-41ff-95cd-8d20614c8714.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ef875a3f-3dde-4fc2-b423-000e878ba344",
+            "Value": {
+                "id": "ab409c86-d7ea-49d3-9388-9dc91ad49b1d",
+                "resourcePath": "objects\\oPlayer2\\oPlayer2.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        "00494760-3ad8-4682-b742-be054d6bbd55"
+        "00494760-3ad8-4682-b742-be054d6bbd55",
+        "8a19e5c0-eb2e-4fdc-9db4-501d9ea6a63e"
     ],
     "tutorial": ""
 }

@@ -1,3 +1,10 @@
+///@desc PlayerMovement(player)
+// This script handle the movement, the jump, the collisions of the player.
+
+//@arg player
+
+var p = argument0;
+
 goRight = keyboard_check(InputManager.rightKey[p]);
 goLeft  = keyboard_check(InputManager.leftKey[p]);
 jump    = keyboard_check_pressed(InputManager.upKey[p]);
@@ -7,10 +14,18 @@ var move = goRight - goLeft;
 hsp = walksp * move;
 vsp += grv;
 
+// Collision with other Players
+//if place_meeting(x, y+1, oPlayer)
+//{
+//	jump = true;
+//	canJump = 10;
+//}
+
 // Jump
-if jump
+if jump && canJump > 0
 {
 	vsp = -jumpPower;
+	canJump = 0;
 }
 
 // Horizontal Collisions
@@ -32,6 +47,13 @@ if place_meeting(x, y+vsp, oWallTile)
 	}
 	vsp = 0;
 }
+
+// On Ground
+if place_meeting(x, y+1, oWallTile)
+{
+	canJump = jumpDelay;
+}
+canJump--;
 
 // Update Player Position
 x += hsp;
