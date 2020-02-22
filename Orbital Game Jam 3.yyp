@@ -34,7 +34,7 @@
             "Key": "07489839-742f-4ad6-8907-9d7140625d48",
             "Value": {
                 "id": "b5420c81-cabc-4f97-9f69-e61836ff1151",
-                "resourcePath": "objects\\oTile\\oTile.yy",
+                "resourcePath": "objects\\oWallTile\\oWallTile.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -42,7 +42,7 @@
             "Key": "0b28d82d-0c33-4f35-b317-33e0c1190375",
             "Value": {
                 "id": "1306ecfe-697f-4101-a1d2-336123566954",
-                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourcePath": "sprites\\sPlayer1\\sPlayer1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "3d03d37d-7ed7-4044-a9b4-7fc2c66003c0",
+            "Value": {
+                "id": "8601b0cb-b776-484d-b8d1-8aeab83923ca",
+                "resourcePath": "objects\\oEvents\\oEvents.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e7c5b1a-66c9-44c3-8607-9b5660ab25a3",
             "Value": {
                 "id": "b048a79c-0ca3-40fa-90d8-cbade0c97008",
@@ -108,6 +116,14 @@
                 "id": "b767b888-35e9-458d-9947-80dc13e9ed4e",
                 "resourcePath": "views\\6a787a37-46be-4b07-ad84-f08eda5e6cb4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7bc7c747-f771-4e39-a166-32fe915503a0",
+            "Value": {
+                "id": "33581b59-ba5b-4fe8-9d8f-61c434b34e3b",
+                "resourcePath": "sprites\\sPlayer2\\sPlayer2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -146,7 +162,7 @@
             "Key": "9a371cb4-b942-448c-a610-0b3c5b97de92",
             "Value": {
                 "id": "eb1d99a0-eb47-4782-8436-f5b9f534e7e8",
-                "resourcePath": "sprites\\sTile\\sTile.yy",
+                "resourcePath": "sprites\\sWallTile\\sWallTile.yy",
                 "resourceType": "GMSprite"
             }
         },

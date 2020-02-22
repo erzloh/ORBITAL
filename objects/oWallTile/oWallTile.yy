@@ -2,7 +2,7 @@
     "id": "07489839-742f-4ad6-8907-9d7140625d48",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oTile",
+    "name": "oWallTile",
     "eventList": [
         
     ],
