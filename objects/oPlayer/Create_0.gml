@@ -1,13 +1,13 @@
-if (self.color == "yellow") {
-	sprite_index = sPlayer1;
-} else if (self.color == "red") {
-	sprite_index = sPlayer2;
+if (global.couleur == "yellow") {
+    sprite_index = sPlayer1;
+} else if (global.couleur == "red") {
+    sprite_index = sPlayer2;
 }
 
 //sprite_index = sPlayer2;
 
 // Player Variables
-p         = 0; // Player Number (0 = player 1, 1 = player 2 etc...)
+p         = global.p; // Player Number (0 = player 1, 1 = player 2 etc...)
 hsp       = 0; // Horizontal Speed
 vsp       = 0; // Vertical Speed
 walksp    = 4; // Walk Speed
