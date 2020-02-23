@@ -18,4 +18,4 @@ timerDelay = 0;
 timer = timerDelay;
 textSwitch = false;
 
-instance_create_layer(x, y, "controller", oCreateCrown);
+//instance_create_layer(x, y, "controller", oCreateCrown);

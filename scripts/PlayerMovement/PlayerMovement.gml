@@ -17,25 +17,25 @@ if (ds_list_find_index(maluses, 2) != -1) {
     if (testt == "bruh") {
         testt = "first2";
         grv = 0.1;
-		jumpPower = 6.9  ;
+		jumpPower = 5.9  ;
     } else if (testt == "first3") {
         testt = 2;
     }
     if (testt == 2) {
         grv = 0.1;
-		jumpPower = 6.9;
+		jumpPower = 5.9;
     }
 }
 if (ds_list_find_index(maluses, 3) != -1) {
     if (testt == "bruh") {
         testt = "first3";
-        grv = 0.8;
+        grv = 0.95;
 		jumpPower = 16;
     } else if (testt == "first2") {
         testt = 3;
     }
     if (testt == 3) {
-        grv = 0.8;
+        grv = 0.95;
 		jumpPower = 16;
     }
 } 

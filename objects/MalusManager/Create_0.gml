@@ -11,5 +11,5 @@ global.hasChangedLeader4 = false;
 
 //liste de malus disponibles
 malusList = ds_list_create();
-//inverser touches: 0; inverser gravité: 1; rendre plus gros: 2
+//inverser touches: 0; inverser gravité: 1; 
 ds_list_add(malusList, 0, 1, 2, 3);
