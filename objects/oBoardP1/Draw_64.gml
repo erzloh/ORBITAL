@@ -36,5 +36,13 @@ for (var i = 0; i < GameController.playerNb; i++)
 	draw_sprite(board_i, 1, hw - 128, (y-128) + (i*80));
 }
 
-draw_set_color(c_white);
-draw_text(txt_x, ScoreManager.GUI_y, "Press Space to restart");
+timer++;
+if timer > 60
+{
+	timer = 0;
+	textSwitch = !textSwitch;
+}
+if textSwitch {
+	draw_set_color(c_white);
+	draw_text(txt_x, ScoreManager.GUI_y, "Press Space to restart");
+}

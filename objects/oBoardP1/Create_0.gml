@@ -1,6 +1,6 @@
 start    = -100;
 dest     = room_height/2;
-duration = 90;
+duration = 80;
 time     = 0;
 	
 boardList = ds_list_create();
@@ -12,3 +12,8 @@ txt_x = 0;
 
 startX = -100;
 destX = room_width/2;
+
+
+timerDelay = 0;
+timer = timerDelay;
+textSwitch = false;

@@ -61,6 +61,7 @@ if (GameController.inGame) {
                 show_debug_message("Emptying maluses list (size "+string(ds_list_size(player_i.maluses))+") from player "+string(player_i));
             }
             ds_list_clear(player_i.maluses);
+			player_i.testt = "bruh";
         }
     }
 }

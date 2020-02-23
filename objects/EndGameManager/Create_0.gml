@@ -1,5 +1,5 @@
 gameTimer = 0;
-gameDuration = 60;
+gameDuration = 9000;
 endGame = false;
 boardSpawned = false;
 
