@@ -12,6 +12,7 @@ grv = 0.3;
 originalGrv = grv;
 //jumpPower = 10; // How high the player can jump
 jumpPower = 10;
+originalJumpPower = jumpPower;
 canJump   = 0; 
 jumpDelay = 10; // How many frames the player can jump after leaving a platform
 pushedDir = 0;

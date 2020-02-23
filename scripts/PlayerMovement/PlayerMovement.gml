@@ -18,27 +18,35 @@ if (ds_list_find_index(maluses, 2) != -1) {
     if (testt == "bruh") {
         testt = "first2";
         grv = 0.1;
+		jumpPower = 5;
     } else if (testt == "first3") {
         testt = 2;
     }
     if (testt == 2) {
         grv = 0.1;
+		jumpPower = 5;
     }
 }
 if (ds_list_find_index(maluses, 3) != -1) {
     if (testt == "bruh") {
         testt = "first3";
         grv = 0.8;
+		jumpPower = 12;
     } else if (testt == "first2") {
         testt = 3;
     }
     if (testt == 3) {
         grv = 0.8;
+		jumpPower = 12;
     }
 } 
 if (ds_list_find_index(maluses, 2) == -1 && ds_list_find_index(maluses, 3) == -1) {
     grv = originalGrv;
+	jumpPower = originalJumpPower;
 }
+/*if (ds_list_find_index(maluses, 2) == -1) {
+    jumpPower = originalJumpPower;
+}*/
 // Movement
 var move = goRight - goLeft;
 hsp = walksp * move;
@@ -61,19 +69,10 @@ if jump && canJump > 0
 {    
     if (ds_list_find_index(maluses, 1) == -1) {
         vsp = -jumpPower;
-		repeat(10)
-		{
-			instance_create_layer(x, y+(sprite_height/2), "wall", oDust);
-		}
     } else if (ds_list_find_index(maluses, 1) != -1) {
         vsp = jumpPower;
-		repeat(10)
-		{
-			instance_create_layer(x, y-(sprite_height/2), "wall", oDust);
-		}
     }
     canJump = 0;
-	
 }
 
 // NOT IN USE
