@@ -14,17 +14,16 @@ if (ds_list_find_index(maluses, 0) == -1) {
 }
 
 if (ds_list_find_index(maluses, 2) != -1) {
-    //show_debug_message("dupa and lastGrvMl is " + string(testt));
     if (testt == "bruh") {
         testt = "first2";
         grv = 0.1;
-		jumpPower = 7.8;
+		jumpPower = 6.9  ;
     } else if (testt == "first3") {
         testt = 2;
     }
     if (testt == 2) {
         grv = 0.1;
-		jumpPower = 7.8;
+		jumpPower = 6.9;
     }
 }
 if (ds_list_find_index(maluses, 3) != -1) {

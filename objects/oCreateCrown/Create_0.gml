@@ -2,10 +2,10 @@
 polygon_x = 0;
 polygon_y = 0;
 vertices  = 3;
-rot       = 0;
+rot       = 210;
 radius    = 0;
 thickness = 50;
-col       = c_white;
+col       = c_yellow;
 alpha     = 0.5;
 
 /// Easing Variables

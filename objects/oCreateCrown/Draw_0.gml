@@ -1,1 +1,0 @@
-DrawPolygon(room_width/2, room_height/2, vertices, 15, rot, 15, oMenu.selected_col, 1);

@@ -24,7 +24,7 @@ for (var _i = 0; _i < 4; _i++)
 //audio_play_sound(snButton, 10, false);
 
 draw_set_font(font);
-//draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_center);
 
 // To display only 2 objects above and bellow : 

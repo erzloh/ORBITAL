@@ -1,0 +1,1 @@
+DrawPolygon(room_width/2, room_height/2, vertices, 64, rot, 10, col, 1);

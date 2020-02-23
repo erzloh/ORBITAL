@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "19e023ee-abe8-418a-b229-4e02cba0d1a6",
+            "Value": {
+                "id": "27f3bfad-7a5d-42b3-a195-da92feb84ffa",
+                "resourcePath": "sprites\\sControls\\sControls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1adb53d3-2a6d-4701-8e24-00df24d7e530",
             "Value": {
                 "id": "57b4fa31-6fb4-4d90-ba0f-be5370f7fb91",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "4fb0d78b-51c7-4675-a551-48be5bf23b15",
                 "resourcePath": "sprites\\sBoardP2\\sBoardP2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "323a2256-006d-480f-8ff7-617a760135e0",
+            "Value": {
+                "id": "a5e4e8fa-bb78-4c1b-97c8-2cdf5a6c837b",
+                "resourcePath": "sprites\\sArrows\\sArrows.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -551,6 +567,14 @@
             }
         },
         {
+            "Key": "9a94fa23-b32a-4107-b47d-bdc1ac65b794",
+            "Value": {
+                "id": "b027b576-fab7-4974-a612-3edafc363902",
+                "resourcePath": "sprites\\sNumpad\\sNumpad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9db563b7-f45d-4a43-80a7-2972408e3dab",
             "Value": {
                 "id": "cd338df0-4bd7-4616-822d-b50e2000298a",
@@ -591,11 +615,27 @@
             }
         },
         {
+            "Key": "a5944134-e2e3-43a4-a9b0-769f99332da2",
+            "Value": {
+                "id": "9b76d66f-1d41-40f9-ae38-1d2ad81fde30",
+                "resourcePath": "objects\\oTitleTrue\\oTitleTrue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5b9a335-2e0f-4eac-acfc-d7b8017035f6",
             "Value": {
                 "id": "d82fbbab-5f86-4781-888b-bae8b413c7d7",
                 "resourcePath": "views\\a5b9a335-2e0f-4eac-acfc-d7b8017035f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6e1ba5c-a67b-4a5a-9d97-f0ef13704ee6",
+            "Value": {
+                "id": "9338dd3d-080c-4f9b-a010-ef3e0ffc4974",
+                "resourcePath": "sprites\\sWASD\\sWASD.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -799,6 +839,14 @@
             }
         },
         {
+            "Key": "dadac699-1ed3-495f-a1a1-4818e21d5b0f",
+            "Value": {
+                "id": "5f75cb7f-80b6-40cf-915a-624f4e1599fd",
+                "resourcePath": "sounds\\snBoum\\snBoum.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "db1e1092-a0be-4025-9a63-5b492194c4f5",
             "Value": {
                 "id": "40cf5b3f-852a-4ff9-8e65-28f2bf919007",
@@ -812,6 +860,14 @@
                 "id": "eb81d4d2-7784-4cac-b42b-015756722a46",
                 "resourcePath": "views\\dd21db22-2242-41ff-95cd-8d20614c8714.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3f76360-789a-4321-a9dc-8ce43de16b3c",
+            "Value": {
+                "id": "ae41e683-7eb6-4d65-851f-78915722700b",
+                "resourcePath": "sprites\\sIJKL\\sIJKL.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -855,11 +911,27 @@
             }
         },
         {
+            "Key": "f36db894-5a9b-4f41-a797-9419337bf1cd",
+            "Value": {
+                "id": "68631c82-679e-4498-a126-68052a0a1a64",
+                "resourcePath": "views\\f36db894-5a9b-4f41-a797-9419337bf1cd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f3a9617b-8e34-4811-bf6e-e889c1ab3c36",
             "Value": {
                 "id": "da8081a1-54b4-477f-9fd1-b1d878454ef7",
                 "resourcePath": "views\\f3a9617b-8e34-4811-bf6e-e889c1ab3c36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f953b9cc-9dde-45bb-a6f1-a6f6b7a4ff38",
+            "Value": {
+                "id": "25b86a65-8899-4a3f-9850-b4de1b7859bc",
+                "resourcePath": "fonts\\fTitle\\fTitle.yy",
+                "resourceType": "GMFont"
             }
         },
         {

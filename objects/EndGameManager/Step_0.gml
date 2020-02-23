@@ -25,5 +25,5 @@ if endGame && !boardSpawned
 	audio_stop_all();
 	audio_play_sound(mQuiet, 5, true);
 	global.canMove = false;
-	
+	audio_play_sound(snBoum, 15, false);	
 }

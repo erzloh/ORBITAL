@@ -17,3 +17,5 @@ destX = room_width/2;
 timerDelay = 0;
 timer = timerDelay;
 textSwitch = false;
+
+instance_create_layer(x, y, "controller", oCreateCrown);
