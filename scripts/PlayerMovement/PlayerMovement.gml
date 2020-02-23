@@ -8,9 +8,9 @@ var p = argument0;
 //("testt is " + testt);
 // Get Player Inputs
 if (ds_list_find_index(maluses, 0) == -1) {
-    goRight = keyboard_check(InputManager.rightKey[p]);
-    goLeft  = keyboard_check(InputManager.leftKey[p]);
-    jump    = keyboard_check_pressed(InputManager.upKey[p]);
+    goRight = keyboard_check(InputManager.rightKey[p]) || gamepad_button_check(p, InputManager.rightKey[p+4]);
+    goLeft  = keyboard_check(InputManager.leftKey[p]) || gamepad_button_check(p, InputManager.leftKey[p+4]);
+    jump    = keyboard_check_pressed(InputManager.upKey[p]) || gamepad_button_check_pressed(p, InputManager.upKey[p+4]);
 }
 
 if (ds_list_find_index(maluses, 2) != -1) {
@@ -53,9 +53,9 @@ vsp += grv;
 
 // Handle Maluses
 if (ds_list_find_index(maluses, 0) != -1) {
-    goRight = keyboard_check(InputManager.leftKey[p]);
-    goLeft  = keyboard_check(InputManager.rightKey[p]);
-    jump    = keyboard_check_pressed(InputManager.upKey[p]);
+	goRight = keyboard_check(InputManager.leftKey[p]) || gamepad_button_check(p, InputManager.leftKey[p+4]);
+    goLeft  = keyboard_check(InputManager.rightKey[p]) || gamepad_button_check(p, InputManager.rightKey[p+4]);
+    jump    = keyboard_check_pressed(InputManager.upKey[p]) || gamepad_button_check_pressed(p, InputManager.upKey[p+4]);
 
 }
 if (ds_list_find_index(maluses, 1) != -1) {
