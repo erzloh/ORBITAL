@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "09d0cf1e-21f1-4f43-96ce-cb2fb63f9b78",
+            "Value": {
+                "id": "0b5dfa9a-8bb4-47a1-9e89-bb37c2b7c5b2",
+                "resourcePath": "scripts\\PlayerMalus1\\PlayerMalus1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0b28d82d-0c33-4f35-b317-33e0c1190375",
             "Value": {
                 "id": "1306ecfe-697f-4101-a1d2-336123566954",
@@ -260,6 +268,22 @@
                 "id": "33581b59-ba5b-4fe8-9d8f-61c434b34e3b",
                 "resourcePath": "sprites\\sPlayer2\\sPlayer2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7c8a1c44-600b-43c4-9a87-a6cbd4e501f3",
+            "Value": {
+                "id": "0d693056-06d5-4f9f-b0c7-2022bf7f8e31",
+                "resourcePath": "rooms\\rm_endGame\\rm_endGame.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "810cadc4-66a5-48da-bdd7-a0f04100fb0f",
+            "Value": {
+                "id": "3014840a-bdfe-4988-996c-8c86e1b2b0cc",
+                "resourcePath": "objects\\EndGameManager\\EndGameManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -531,6 +555,7 @@
         "b88594bc-1ba4-468d-899d-2f2068a76901",
         "00494760-3ad8-4682-b742-be054d6bbd55",
         "8a19e5c0-eb2e-4fdc-9db4-501d9ea6a63e",
+        "09d0cf1e-21f1-4f43-96ce-cb2fb63f9b78",
         "6d3a077e-721a-40c8-80ac-55090fd5dba0",
         "327590cb-6065-4e74-8c36-1a138dad696f",
         "1848c835-f00c-433e-908f-05e88561694c",

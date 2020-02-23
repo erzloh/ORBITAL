@@ -14,7 +14,7 @@ jumpDelay = 10; // How many frames the player can jump after leaving a platform
 pushedDir = 0;
 myScore   = 0;
 
-state = "free";
+state = "normal";
 
 //liste de malus qui sont appliqués au perso
 maluses = ds_list_create();

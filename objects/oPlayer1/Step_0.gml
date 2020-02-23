@@ -1,11 +1,11 @@
 // State Machine but we don't use it
 switch (state)
 {
-	case "free":
+	case "normal":
 		PlayerMovement(p);
 		break;
-	case "pushed":
-		PlayerPushed();
+	case "malus1":
+		PlayerMalus1(p);
 		break;
 }
 

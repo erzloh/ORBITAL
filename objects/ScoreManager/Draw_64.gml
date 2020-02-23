@@ -47,6 +47,6 @@ if GameController.inGame
 }
 
 // Time Bar
-if (global.leader != "null" && ds_list_size(global.leader) < ds_list_size(MalusManager.malusList)) {
+if (GameController.inGame && global.leader != "null" && ds_list_size(global.leader.maluses) < ds_list_size(MalusManager.malusList)) {
 	draw_healthbar(30, 10, room_width-30, 32-10, MalusManager.malusTimer/(MalusManager.secondsBetweenMalus*6/10), c_black, c_red, c_green, -1, true, true);
 }

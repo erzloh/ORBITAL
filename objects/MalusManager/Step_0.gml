@@ -1,6 +1,14 @@
 if (GameController.inGame) {
-	playerList = ds_list_create();
-	ds_list_add(playerList, oPlayer1, oPlayer2, oPlayer3, oPlayer4);
+	allPlayerList = ds_list_create();
+    ds_list_add(allPlayerList, oPlayer1, oPlayer2, oPlayer3, oPlayer4);
+    
+    playerList = ds_list_create();
+    for (i = 0; i < GameController.playerNb; i++) {
+        ds_list_add(playerList, ds_list_find_value(allPlayerList, i));
+    }
+	
+	
+	
 	if (global.leader != "null") {
 	    currentHighestScore = global.leader.myScore;
 	} else {

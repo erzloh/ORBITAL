@@ -14,7 +14,7 @@ if (image_xscale >= 0) {
     //ascending = !ascending;
 }
 if (ascending) {
-    y -= sin(sin_value)/7;
+    y -= sin(sin_value)/12;
 } else {
-    y += sin(sin_value)/7;
+    y += sin(sin_value)/12;
 }

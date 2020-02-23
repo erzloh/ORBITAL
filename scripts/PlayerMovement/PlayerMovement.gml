@@ -5,19 +5,43 @@
 
 var p = argument0;
 
-goRight = keyboard_check(InputManager.rightKey[p]);
-goLeft  = keyboard_check(InputManager.leftKey[p]);
-jump    = keyboard_check_pressed(InputManager.upKey[p]);
+// Get Player Inputs
+if (ds_list_find_index(maluses, 0) == -1) {
+	goRight = keyboard_check(InputManager.rightKey[p]);
+	goLeft  = keyboard_check(InputManager.leftKey[p]);
+	jump    = keyboard_check_pressed(InputManager.upKey[p]);
+}
 
 // Movement
 var move = goRight - goLeft;
 hsp = walksp * move;
 vsp += grv;
 
+// Handle Maluses
+if (ds_list_find_index(maluses, 0) != -1) {
+	goRight = keyboard_check(InputManager.leftKey[p]);
+	goLeft  = keyboard_check(InputManager.rightKey[p]);
+	jump    = keyboard_check_pressed(InputManager.upKey[p]);
+
+}
+if (ds_list_find_index(maluses, 1) != -1) {
+	vsp -= grv;
+	vsp -= grv;
+}
+if (ds_list_find_index(maluses, 2) != -1) {
+	//state = "malus2";
+}
+
+
+
 // Jump
 if jump && canJump > 0
-{
-	vsp = -jumpPower;
+{	
+	if (ds_list_find_index(maluses, 1) == -1) {
+		vsp = -jumpPower;
+	} else if (ds_list_find_index(maluses, 1) != -1) {
+		vsp = jumpPower;
+	}
 	canJump = 0;
 }
 
@@ -50,13 +74,21 @@ if place_meeting(x, y+vsp, oWallTile)
 	vsp = 0;
 }
 
-// On Ground
-if place_meeting(x, y+1, oWallTile)
-{
-	canJump = jumpDelay;
+// On Ground or Ceiling if has gravity malus
+if (ds_list_find_index(maluses, 1) == -1) {
+	if place_meeting(x, y+1, oWallTile)
+	{
+		canJump = jumpDelay;
+	}
+} else if (ds_list_find_index(maluses, 1) != -1) {
+	if place_meeting(x, y-1, oWallTile)
+	{
+		canJump = jumpDelay;
+	}
 }
 canJump--;
 
 // Update Player Position
 x += hsp;
 y += vsp;
+
