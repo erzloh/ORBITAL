@@ -4,6 +4,7 @@ anim += keyboard_check_pressed(InputManager.downKey[0]) - keyboard_check_pressed
 anim += keyboard_check_pressed(InputManager.downKey[1]) - keyboard_check_pressed(InputManager.upKey[1]);
 anim += keyboard_check_pressed(InputManager.downKey[2]) - keyboard_check_pressed(InputManager.upKey[2]);
 anim += keyboard_check_pressed(InputManager.downKey[3]) - keyboard_check_pressed(InputManager.upKey[3]);
+anim += gamepad_button_check_pressed(0, InputManager.downKey[4]) - gamepad_button_check_pressed(0, InputManager.upupKey[4])
 
 anim = clamp(anim, 0, array_length_1d(array)-1);
 anim_n = ReachTween(anim_n, anim, anim_spd); // value that reaches slowly anim
@@ -19,6 +20,7 @@ for (var _i = 0; _i < 4; _i++)
 {
 	if keyboard_check_pressed(InputManager.downKey[_i]) { audio_play_sound(snButton, 10, false); }
 	if keyboard_check_pressed(InputManager.upKey[_i]) { audio_play_sound(snButton, 10, false); }
+	
 }
 
 //audio_play_sound(snButton, 10, false);
@@ -36,7 +38,7 @@ for(var i = 0; i < array_length_1d(array); i++)
 	draw_set_colour((i==anim)?selected_col:not_selected_col);
 	
 	// Select the number of players
-	if i == anim && (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter))
+	if i == anim && (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, InputManager.upKey[4]) || gamepad_button_check_pressed(0, InputManager.startKey[4]))
 	{
 		if anim == 0
 		{

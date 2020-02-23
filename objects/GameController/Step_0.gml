@@ -29,4 +29,20 @@ if !createdInGameControllers && inGame{
 			instance_create_layer(576, 544, "player", oPlayer3);
 			instance_create_layer(832, 544, "player", oPlayer4);
 	}
+	
+	
+}
+
+// Restart
+if inGame
+{
+	if gamepad_button_check_pressed(0, InputManager.startKey[4])
+	{
+		game_restart();
+	}
+	
+	if keyboard_check_pressed(vk_escape)
+	{
+		game_restart();
+	}
 }

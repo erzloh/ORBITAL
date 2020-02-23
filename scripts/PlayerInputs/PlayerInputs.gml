@@ -28,6 +28,8 @@ rightKey[4] = gp_padr;
 leftKey[4] = gp_padl;
 upKey[4] = gp_face1;
 downKey[4] = gp_padd;
+startKey[4] = gp_start;
+upupKey[4]  = gp_padu;
 
 //player 2 gamepad input
 rightKey[5] = gp_padr;
