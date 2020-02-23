@@ -1,5 +1,6 @@
 timer = 0; //triggers each 5 seconds
 malusTimer = 0; //triggers each 15 seconds, by default
+secondsBetweenMalus = 8;
 testOn = true;
 justChangedLeader = false; // idk si ca sert a qqch mais osef
 global.leader = "null";

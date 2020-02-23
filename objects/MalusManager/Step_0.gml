@@ -26,7 +26,7 @@ if (GameController.inGame) {
 	//if we have a leader, check if he just 
 	if (global.leader != "null") {
 	    malusTimer++;
-	    if (malusTimer == 900) {
+	    if (malusTimer == secondsBetweenMalus*60) {
 	        malusTimer = 0;
 	        //trigger an add malus event
 	        //check if the player doesn't have the maximum amount of maluses
@@ -45,4 +45,14 @@ if (GameController.inGame) {
 	        }
 	    }
 	}
+	//remove all maluses from all non leader players
+    for (i = 0; i < ds_list_size(playerList); i++) {
+        player_i = ds_list_find_value(playerList, i);
+        if (player_i != global.leader) {
+            if (ds_list_size(player_i.maluses) > 0) {
+                show_debug_message("Emptying maluses list (size "+string(ds_list_size(player_i.maluses))+") from player "+string(player_i));
+            }
+            ds_list_clear(player_i.maluses);
+        }
+    }
 }

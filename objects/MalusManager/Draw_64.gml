@@ -13,5 +13,5 @@ if (testOn) {
 }
 
 if (global.leader != "null") {
-    draw_text(60, 20, "Leader is " + string(global.leader.p) + ", " + string(malusTimer/60));
+    draw_text(60, 40, "Leader is " + string(global.leader.p) + ", " + string(malusTimer/60));
 }

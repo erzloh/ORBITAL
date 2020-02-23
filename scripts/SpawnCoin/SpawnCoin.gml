@@ -22,7 +22,7 @@ if GameController.inGame {
     for (var i = 0; i < instance_number(oWallTile); ++i;) {
         currentTile = instance_find(oWallTile,i)
         //show_debug_message("found oWallTile"+" "+string(currentTile.x)+", "+string(currentTile.y));
-        if (instance_position(currentTile.x, currentTile.y-currentTile.sprite_height, oWallTile) || instance_position(currentTile.x, currentTile.y-currentTile.sprite_height, oCoin) || currentTile.y < currentTile.sprite_height) {
+        if (instance_position(currentTile.x, currentTile.y-currentTile.sprite_height, oWallTile) || instance_position(currentTile.x, currentTile.y-currentTile.sprite_height, oCoin) || currentTile.y < currentTile.sprite_height*2) {
             //show_debug_message("not eligible");
         } else {
             ds_list_add(eligibleTiles2, currentTile);

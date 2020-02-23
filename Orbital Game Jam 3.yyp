@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "86e0c1ab-c85b-4c86-8818-88548498a91d",
+            "Value": {
+                "id": "142c07be-a249-4116-82fa-63dd9c3c37b1",
+                "resourcePath": "fonts\\fGui\\fGui.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8a19e5c0-eb2e-4fdc-9db4-501d9ea6a63e",
             "Value": {
                 "id": "5ee1fc11-f791-411a-b757-3b3e650dfa0b",
