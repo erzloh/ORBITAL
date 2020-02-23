@@ -22,4 +22,8 @@ if endGame && !boardSpawned
 	boardSpawned = true;
 	//draw_rectangle_color(x1, y1, x2, y2, c_aqua, c_white, c_green, c_fuchsia, false);
 	instance_create_layer(room_width/2, -100, "controller", oBoardP1);
+	audio_stop_all();
+	audio_play_sound(mQuiet, 5, true);
+	global.canMove = false;
+	
 }

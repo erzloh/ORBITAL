@@ -11,3 +11,4 @@ createdInGameControllers = false;
 playerNb = 2;
 inGame   = false;
 
+global.canMove = true;

@@ -38,6 +38,9 @@ if GameController.inGame {
 		{
 			mP1Activated = true;
 			
+			// Play voice
+			audio_play_sound(snVoice1, 15, false);
+			
 			// Demute track 1
 			audio_sound_gain(music1, 1, 0);
 			
@@ -63,6 +66,9 @@ if GameController.inGame {
 		{
 			mP2Activated = true;
 			
+			// Play voice
+			audio_play_sound(snVoice2, 15, false);
+			
 			// Demute track 2
 			audio_sound_gain(music2, 1, 0);
 			
@@ -86,6 +92,9 @@ if GameController.inGame {
 		{
 			mP3Activated = true;
 			
+			// Play voice
+			audio_play_sound(snVoice3, 15, false);
+			
 			// Demute track 3
 			audio_sound_gain(music3, 1, 0);
 			
@@ -108,6 +117,9 @@ if GameController.inGame {
 		if !mP4Activated
 		{
 			mP4Activated = true;
+			
+			// Play voice
+			audio_play_sound(snVoice4, 15, false);
 			
 			// Demute track 4
 			audio_sound_gain(music4, 1, 0);

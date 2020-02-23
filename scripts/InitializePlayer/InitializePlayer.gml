@@ -20,6 +20,7 @@ myScore   = 0;
 flash     = 0;
 testt = "bruh";
 
+
 state = "normal";
 
 //liste de malus qui sont appliqués au perso
