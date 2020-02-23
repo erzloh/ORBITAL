@@ -40,6 +40,7 @@ for(var i = 0; i < array_length_1d(array); i++)
 		}
 		room_goto_next();
 		GameController.inGame = true;
+		//SlideTransition(TRANS_MODE.NEXT);
 	}
 	
 	draw_text(centerX, centerY + (textPos*font_size*inbetween_text_space), array[i]);

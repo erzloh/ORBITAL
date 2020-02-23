@@ -5,4 +5,5 @@ if place_meeting(x, y, oCoin)
 	myScore += 1;
 	SpawnCoin();
 	flash = 8;
+	ScreenShake(6, 30);
 }

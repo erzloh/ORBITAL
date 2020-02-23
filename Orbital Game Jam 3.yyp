@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "16ac5136-4881-46cb-a2b8-3ea5a839e1fe",
+            "Value": {
+                "id": "793c6495-6ea3-4093-b5b2-0323e960584c",
+                "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1749b356-66ef-430e-8059-d40c4f2764a1",
             "Value": {
                 "id": "8e35c430-7472-455a-a704-79930431d122",
@@ -100,6 +108,14 @@
                 "id": "af7ab03d-84fe-4d14-ae62-4fcd460584f6",
                 "resourcePath": "views\\17b703fb-eaa2-48a3-9307-96b4d887afd2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "17f88524-b027-4203-83f8-fb1767c34409",
+            "Value": {
+                "id": "b431a76b-181c-4bda-bd2a-8098971f35d1",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "9fc04fe0-5f24-4e57-bf74-f62144fece8f",
+            "Value": {
+                "id": "ed1f16b0-e34b-4932-945b-e366e5aab64d",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a52f7841-bcb2-440b-95d5-7a54b8be2687",
             "Value": {
                 "id": "cd0282f8-e96f-4f4c-aee2-d4c7997f5939",
@@ -607,6 +631,14 @@
             }
         },
         {
+            "Key": "f0675c53-8033-4e4f-a250-e6da8a6e65e8",
+            "Value": {
+                "id": "808b46dc-fb3c-4753-a28c-a84579ff89fb",
+                "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f3a9617b-8e34-4811-bf6e-e889c1ab3c36",
             "Value": {
                 "id": "da8081a1-54b4-477f-9fd1-b1d878454ef7",
@@ -635,7 +667,9 @@
         "5cc13820-e2c6-40bf-bfe3-f83fbff023cf",
         "35d1e939-e25e-4b7f-a76c-7e3d9dcb8635",
         "a52f7841-bcb2-440b-95d5-7a54b8be2687",
-        "3e333804-e33c-4c77-b025-384da92b796d"
+        "3e333804-e33c-4c77-b025-384da92b796d",
+        "f0675c53-8033-4e4f-a250-e6da8a6e65e8",
+        "16ac5136-4881-46cb-a2b8-3ea5a839e1fe"
     ],
     "tutorial": ""
 }

@@ -28,7 +28,9 @@ if (miliseconds < 10) {
 }
 
 draw_set_font(fMenu);
-draw_text(20, ScoreManager.GUI_y, timeString);
+if (GameController.inGame) {
+    draw_text(20, ScoreManager.GUI_y, timeString);    
+}
 
 // Draw End Game Board
 if endGame
