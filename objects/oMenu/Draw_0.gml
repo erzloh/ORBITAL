@@ -11,6 +11,18 @@ anim_n = ReachTween(anim_n, anim, anim_spd); // value that reaches slowly anim
 //centerX = mouse_x;
 //centerY = mouse_y;
 
+// Sound
+//if keyboard_check_pressed(InputManager.downKey[0]) { audio_play_sound(snButton, 10, false); }
+
+
+for (var _i = 0; _i < 4; _i++)
+{
+	if keyboard_check_pressed(InputManager.downKey[_i]) { audio_play_sound(snButton, 10, false); }
+	if keyboard_check_pressed(InputManager.upKey[_i]) { audio_play_sound(snButton, 10, false); }
+}
+
+//audio_play_sound(snButton, 10, false);
+
 draw_set_font(font);
 //draw_set_halign(fa_center);
 draw_set_valign(fa_center);
@@ -38,6 +50,7 @@ for(var i = 0; i < array_length_1d(array); i++)
 		{
 			GameController.playerNb = 4;
 		}
+		audio_play_sound(snStart, 10, false);
 		room_goto_next();
 		GameController.inGame = true;
 		//SlideTransition(TRANS_MODE.NEXT);

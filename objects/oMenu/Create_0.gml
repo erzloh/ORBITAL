@@ -20,5 +20,7 @@ selected_col         = c_red;
 not_selected_col     = c_white;
 anim_spd             = 10; // the lower, the faster
 
+sounded = false;
+
 // Create the triangle
 instance_create_layer(x, y, layer, oTriangle);

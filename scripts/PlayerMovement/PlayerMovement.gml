@@ -69,8 +69,16 @@ if jump && canJump > 0
 {    
     if (ds_list_find_index(maluses, 1) == -1) {
         vsp = -jumpPower;
+		repeat(10)
+		{
+			instance_create_layer(x, y+(sprite_height/2), "wall", oDust);
+		}
     } else if (ds_list_find_index(maluses, 1) != -1) {
         vsp = jumpPower;
+		repeat(10)
+		{
+			instance_create_layer(x, y-(sprite_height/2), "wall", oDust);
+		}
     }
     canJump = 0;
 }

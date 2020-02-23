@@ -13,4 +13,5 @@ if place_meeting(x, y, oCoin)
 			image_blend = c_yellow;
 		}
 	}
+	audio_play_sound(snCoin, 10, false);
 }
