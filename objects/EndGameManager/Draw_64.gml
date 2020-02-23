@@ -32,8 +32,3 @@ if (GameController.inGame) {
     draw_text(20, ScoreManager.GUI_y, timeString);    
 }
 
-// Draw End Game Board
-if endGame
-{
-	draw_rectangle_color(x1, y1, x2, y2, c_aqua, c_white, c_green, c_fuchsia, false);
-}

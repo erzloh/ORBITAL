@@ -1,6 +1,7 @@
 gameTimer = 0;
-gameDuration = 5000;
+gameDuration = 60;
 endGame = false;
+boardSpawned = false;
 
 // Rectangle Board
 x1 = 0;

@@ -16,8 +16,8 @@ angle                = 30;
 dist                 = 64; // Distance from the center
 inbetween_text_ratio = 1.5; // Scaler of the font
 inbetween_text_space = 2;
-selected_col         = c_aqua;
-not_selected_col     = c_ltgray;
+selected_col         = c_red;
+not_selected_col     = c_white;
 anim_spd             = 10; // the lower, the faster
 
 // Create the triangle
