@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1f330434-a0a8-457e-bf78-50d695a8ce8a",
+            "Value": {
+                "id": "08947c57-46bf-4262-a42e-6d333029c35b",
+                "resourcePath": "views\\1f330434-a0a8-457e-bf78-50d695a8ce8a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "25fdcca8-de50-4734-bd09-e78be52ea008",
             "Value": {
                 "id": "f8cd61ed-8213-449c-9cfc-6cde838fe754",
@@ -156,6 +164,14 @@
                 "id": "7096cbde-ec57-40b3-98f1-2deb5628b1c1",
                 "resourcePath": "objects\\oCoinSpawner\\oCoinSpawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "35d1e939-e25e-4b7f-a76c-7e3d9dcb8635",
+            "Value": {
+                "id": "26a49e63-6a99-47f6-b396-48867bc1b773",
+                "resourcePath": "scripts\\ease_out_elastic\\ease_out_elastic.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -561,7 +577,8 @@
         "1848c835-f00c-433e-908f-05e88561694c",
         "3e333804-e33c-4c77-b025-384da92b796d",
         "a52f7841-bcb2-440b-95d5-7a54b8be2687",
-        "5cc13820-e2c6-40bf-bfe3-f83fbff023cf"
+        "5cc13820-e2c6-40bf-bfe3-f83fbff023cf",
+        "35d1e939-e25e-4b7f-a76c-7e3d9dcb8635"
     ],
     "tutorial": ""
 }

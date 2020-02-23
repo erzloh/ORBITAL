@@ -24,7 +24,7 @@ for(var i = 0; i < array_length_1d(array); i++)
 	draw_set_colour((i==anim)?selected_col:not_selected_col);
 	
 	// Select the number of players
-	if i == anim && (keyboard_check(vk_space) || keyboard_check(vk_enter))
+	if i == anim && (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter))
 	{
 		if anim == 0
 		{
