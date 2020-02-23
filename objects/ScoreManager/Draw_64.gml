@@ -32,7 +32,7 @@ if GameController.inGame
 	if GameController.playerNb == 4
 	{
 		dist = room_width / (GameController.playerNb + 1);
-		draw_sprite(sPlayer1, 0, dist, GUI_y);
+		draw_sprite(sPlayer1, 0, dist, GUI_y);		
 		draw_text(dist+25, GUI_y, oPlayer1.myScore);
 		
 		draw_sprite(sPlayer2, 0, dist*2, GUI_y);

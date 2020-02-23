@@ -13,6 +13,7 @@ canJump   = 0;
 jumpDelay = 10; // How many frames the player can jump after leaving a platform
 pushedDir = 0;
 myScore   = 0;
+flash     = 0;
 
 state = "normal";
 

@@ -11,10 +11,16 @@ image_xscale = sin(sin_value);
 image_index = 0;
 if (image_xscale >= 0) {
     image_index = 1;
+	
     //ascending = !ascending;
 }
 if (ascending) {
     y -= sin(sin_value)/12;
 } else {
     y += sin(sin_value)/12;
+}
+
+if image_xscale == 1 || image_xscale == -1
+{
+	flash = 12;
 }

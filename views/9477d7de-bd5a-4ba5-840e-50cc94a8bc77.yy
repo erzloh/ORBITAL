@@ -6,8 +6,7 @@
     "children": [
         "327590cb-6065-4e74-8c36-1a138dad696f",
         "1848c835-f00c-433e-908f-05e88561694c",
-        "3e333804-e33c-4c77-b025-384da92b796d",
-        "a52f7841-bcb2-440b-95d5-7a54b8be2687"
+        "6c9e7666-6c5c-45c8-ae3c-c8545401e19c"
     ],
     "filterType": "GMScript",
     "folderName": "Coin",
