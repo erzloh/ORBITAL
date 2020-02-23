@@ -1,2 +1,2 @@
 gameTimer = 0;
-gameDuration = 22500;
+gameDuration = 5000;
