@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "68e96fc5-50a0-44d3-b516-75b6ac5503b4",
+            "Value": {
+                "id": "87702eff-7802-4bfd-8859-16d646afdecd",
+                "resourcePath": "objects\\oDust\\oDust.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6a787a37-46be-4b07-ad84-f08eda5e6cb4",
             "Value": {
                 "id": "b767b888-35e9-458d-9947-80dc13e9ed4e",
@@ -380,6 +388,14 @@
                 "id": "20a36e39-a54c-409c-83c4-8f7890aad1d5",
                 "resourcePath": "objects\\oPlayer3\\oPlayer3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "84a63bb6-b270-435d-beab-b9d6edd7ce4d",
+            "Value": {
+                "id": "4d9c4427-390a-4f3d-b467-2b9692c06770",
+                "resourcePath": "sprites\\sDust\\sDust.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

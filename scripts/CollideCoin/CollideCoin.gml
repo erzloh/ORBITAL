@@ -6,4 +6,11 @@ if place_meeting(x, y, oCoin)
 	SpawnCoin();
 	flash = 8;
 	ScreenShake(6, 30);
+	repeat(10)
+	{
+		with instance_create_layer(x, y, "coins", oDust)
+		{
+			image_blend = c_yellow;
+		}
+	}
 }
