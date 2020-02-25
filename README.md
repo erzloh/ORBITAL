@@ -1,0 +1,2 @@
+Welcome to the repo of our game, Suffering from Success!
+This game has been developed during the [Orbital Game Jam 3](https://itch.io/jam/orbital-game-jam-3). One of the two themes of the jam was "The one that can do/have the most, can do/have the least". Following this idea, our game is a platformer in which the player on the winning position gets debuffs until the score is even. The goal is to have collected the most coins at the end of the time.
